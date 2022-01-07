@@ -1,7 +1,8 @@
 
 cwd=$(pwd)
-mkdir ../pretrained_models
-cd ../pretrained_models
+scratch=/srv/scratch6/kew/gedi/
+mkdir -p $scratch/pretrained_models
+cd $scratch/pretrained_models
 
 wget https://storage.googleapis.com/sfr-gedi-data/gedi_topic.zip
 unzip gedi_topic.zip
