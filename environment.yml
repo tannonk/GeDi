@@ -1,0 +1,17 @@
+name: gedi
+
+channels:
+    - pytorch
+    - conda-forge
+    - defaults
+
+dependencies:
+    - cudatoolkit=10.1
+    - cudnn=7.6
+    - cupti=10.1
+    - mpi4py=3.0 # installs cuda-aware openmpi
+    - nccl=2.4
+    - pip=20.0
+    - python=3.7
+    - pytorch=1.4
+    - torchvision=0.5
